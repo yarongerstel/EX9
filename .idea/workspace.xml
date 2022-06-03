@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c20dcb9-c2ef-44d0-94ce-4a5ed6f274aa" name="Changes" comment="start">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WS1.StudentCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WS1/StudentCode/Nimbus1/Nimbus1Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WS1/StudentCode/Nimbus1/Nimbus1Clock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WS1/StudentCode/Nimbus1/Nimbus1PressureSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WS1/StudentCode/Nimbus1/Nimbus1PressureSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WS1/StudentCode/Nimbus1/Nimbus1TemepratureSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WS1/StudentCode/Nimbus1/Nimbus1TemepratureSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WS1/StudentCode/Observable/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WS1/StudentCode/Observable/Observable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WS1/StudentCode/Observable/PressureTrendSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WS1/StudentCode/Observable/PressureTrendSensor.java" afterDir="false" />
+    <list default="true" id="7c20dcb9-c2ef-44d0-94ce-4a5ed6f274aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/WS1/StudentCode/Nimbus1/Nimbus1TemepratureSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WS1/StudentCode/Nimbus1/Nimbus1TempratureSensor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WS1/StudentCode/Observable/WeatherMonitoringSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WS1/StudentCode/Observable/WeatherMonitoringSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WS1/StudentCode/Observers/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WS1/StudentCode/Observers/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WS1/StudentCode/Observers/LogPressObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WS1/StudentCode/Observers/LogPressObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WS1/StudentCode/Observers/LogPressTrendObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WS1/StudentCode/Observers/LogPressTrendObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WS1/StudentCode/Observers/MSPressObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WS1/StudentCode/Observers/MSPressObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WS1/StudentCode/Observers/MSTempObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WS1/StudentCode/Observers/MSTempObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WS1/StudentCode/Observers/MonitoringScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WS1/StudentCode/Observers/MonitoringScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,13 +78,20 @@
       <option name="presentableId" value="LOCAL‎00001" />
       <updated>1654167237111</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎00002" summary="finish">
+      <created>1654238388119</created>
+      <option name="number" value="LOCAL‎00002" />
+      <option name="presentableId" value="LOCAL‎00002" />
+      <updated>1654238388119</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="start" />
     <MESSAGE value="startj" />
-    <option name="LAST_COMMIT_MESSAGE" value="startj" />
+    <MESSAGE value="finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish" />
   </component>
 </project>

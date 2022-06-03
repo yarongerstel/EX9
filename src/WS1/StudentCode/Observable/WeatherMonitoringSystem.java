@@ -1,8 +1,7 @@
 package WS1.StudentCode.Observable;
 
-import WS1.StudentCode.Nimbus1.Nimbus1Clock;
 import WS1.StudentCode.Nimbus1.Nimbus1PressureSensor;
-import WS1.StudentCode.Nimbus1.Nimbus1TemepratureSensor;
+import WS1.StudentCode.Nimbus1.Nimbus1TemperatureSensor;
 
 public class WeatherMonitoringSystem {
     public Sensor temperatureSensor;
@@ -15,7 +14,7 @@ public class WeatherMonitoringSystem {
         System.out.println("WeatherMonitoringSystem was created");
 
         pressureSensor = new Nimbus1PressureSensor("Pressure", 1100);
-        temperatureSensor = new Nimbus1TemepratureSensor("Temperature", 700);
+        temperatureSensor = new Nimbus1TemperatureSensor("Temperature", 700);
         pressureTrendSensor = new PressureTrendSensor(pressureSensor);
 
     }
