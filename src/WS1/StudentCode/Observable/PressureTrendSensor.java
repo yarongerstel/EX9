@@ -9,6 +9,12 @@ public class PressureTrendSensor extends Observable implements Observer {
     int pressureState;
     int lastState = 1;
 
+    public PressureTrendSensor(Sensor wm) {
+        //System.out.println("PressureTrendSensor was created");
+        wm.addObserver(this);
+        System.out.println("PressureTrendSensor observes pressure");
+    }
+
     public void calc() {
         if (lastReading1 < lastReading2 && lastReading2 < lastReading3)
             pressureState = 3;

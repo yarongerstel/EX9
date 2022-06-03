@@ -16,6 +16,7 @@ public class Observable {
     }
 
     public void addObserver(Observer obs){
+
         itsObserver.add(obs);
     }
     public void removeObserver(Observer obs)

@@ -25,8 +25,11 @@ public class Nimbus1Clock extends AlarmClock
 
     public static AlarmClock theInstance()
     {
-        if(null==instance)
+
+        if(null==instance) {
             instance = new Nimbus1Clock();
+           // System.out.println("Nimbus1Clock was created");
+        }
         return instance;
     }
 }

@@ -12,9 +12,11 @@ public class Nimbus1TemepratureSensor extends Sensor {
 
 
     public Nimbus1TemepratureSensor(String type, int interval) {
-
         super(type, interval);
+
         Nimbus1Clock.theInstance().register(interval,new TempratureAlarmListener(this));
+        System.out.println("temperature registered to clock");
+
     }
 
     @Override
