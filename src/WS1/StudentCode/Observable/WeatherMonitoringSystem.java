@@ -16,7 +16,6 @@ public class WeatherMonitoringSystem {
            temperatureSensor = new Nimbus1TemepratureSensor("Temperature",700);
            pressureSensor = new Nimbus1PressureSensor("Pressure",1100);
            pressureTrendSensor = new PressureTrendSensor();
-          // AlarmClock NimbusClock= Nimbus1Clock.theInstance();
 
         }
 

@@ -5,8 +5,6 @@ public class MSPressObserver implements Observer {
 
     public MSPressObserver (MonitoringScreen aMS){
         this.screen = aMS;
-        aMS.itsWetherSystem.pressureSensor.addObserver(this);
-
     }
     public void update(int data){
         screen.displayPress(data);

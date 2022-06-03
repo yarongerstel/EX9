@@ -1,9 +1,6 @@
 package WS1.StudentCode.Observable;
 
 
-
-import WS1.StudentCode.Observers.TempratureAlarmListener;
-
 import java.util.ArrayList;
 
 public class AlarmClock
@@ -12,14 +9,11 @@ public class AlarmClock
     protected static AlarmClock instance = null;
     private ArrayList<AlarmClockRecord> itsAlarmClockRecords = new ArrayList();
 
-    private AlarmClock() {
-
-
-    }
+    protected AlarmClock(){}
     public static AlarmClock theInstance()
     {
-        if(null==instance)
-            instance = new AlarmClock();
+//        if(null==instance)
+//            instance = new AlarmClock();
         return instance;
     }
 

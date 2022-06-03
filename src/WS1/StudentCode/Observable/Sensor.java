@@ -7,7 +7,8 @@ public abstract class Sensor extends Observable {
 
 
     public Sensor(String type,int interval){
-
+        this.interval = interval;
+        this.type = type;
     }
 
     protected abstract int read();

@@ -14,11 +14,11 @@ public class Nimbus1TemepratureSensor extends Sensor {
     public Nimbus1TemepratureSensor(String type, int interval) {
 
         super(type, interval);
-        AlarmClock.theInstance().register(interval,new TempratureAlarmListener(this));
+        Nimbus1Clock.theInstance().register(interval,new TempratureAlarmListener(this));
     }
 
     @Override
-    public int read(){return rnd.nextInt(0,40);}
+    public int read(){return rnd.nextInt(40);}
 
 
 

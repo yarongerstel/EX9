@@ -3,11 +3,11 @@ package WS1.StudentCode.Observers;
 import WS1.StudentCode.Observable.WeatherMonitoringSystem;
 
 public class Log {
-    WeatherMonitoringSystem itsWetherSystem;
 
     public Log(WeatherMonitoringSystem wm)
     {
-        itsWetherSystem = wm;
+        wm.pressureSensor.addObserver(new LogPressObserver(this));
+        wm.pressureTrendSensor.addObserver(new LogPressTrendObserver(this));
     }
     public void displayPress(int data) {
         System.out.println("Log: pressure = "+data +" millibars");
